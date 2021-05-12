@@ -7,4 +7,5 @@ pluginManagement {
 rootProject.name = 'pratice-restful'
 include 'db-connection'
 include 'web-core'
+include 'app-api'
 

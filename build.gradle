@@ -64,8 +64,14 @@ project(':db-connection') {
 	}
 }
 
-project(':web-core') {
+project(':app-api') {
 	dependencies {
 		compile project(':db-connection')
+	}
+}
+
+project(':web-core') {
+	dependencies {
+		compile project(':app-api')
 	}
 }
